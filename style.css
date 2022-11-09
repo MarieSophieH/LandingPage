@@ -5,7 +5,7 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0 300px;
 }
 
 
@@ -140,7 +140,7 @@ a {
     background: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 100px 300px;
+    padding: 100px 240px;
 }
 
 .author {
@@ -159,19 +159,40 @@ a {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 10px 0px;
+    margin: 10px 55px;
     border-radius: 8px;
+    border:1px solid white;
 }
 
 .callToAction {
     display: flex;
     color: #F9FAF8;
     background: #3882F6;
-    margin: 100px;
+    margin: 100px 200px;
     border-radius: 8px;
-    padding: 50px;
+    padding: 35px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .cta_header {
     font-weight: bold;
+}
+
+.cta_text {
+    margin: 0 60px;
+}
+
+.cta_subtext {
+    font-weight: lighter;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-weight: lighter;
 }
